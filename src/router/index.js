@@ -10,8 +10,27 @@ Vue.use(VueRouter)
     component: ()=>import('../views/Home.vue'),
     meta: {
         title: '首页'
-    }
-  }
+    },
+    children: [
+        {
+            path: 'profile',
+            name: 'Profile',
+            component: ()=>import('../views/Profile/Profile.vue'),
+            meta: {
+                title: '个人简介'
+            }
+        },
+        {
+          path: 'project',
+          name: 'Project',
+          component: ()=>import('../views/Project/Project.vue'),
+          meta: {
+              title: '项目案例'
+          }
+        },
+    ]
+  },
+  
 ]
 
 const router = new VueRouter({
