@@ -1,6 +1,8 @@
 <template>
   <div class="profile w">
-      <a href="../assets/profile.pdf">profile</a>
+      <img src="../../assets/profile_1.jpg" alt="">
+      <img src="../../assets/profile_2.jpg" alt="">
+      <img src="../../assets/profile_3.jpg" alt="">
   </div>
 </template>
 
@@ -10,6 +12,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="less">
+.profile {
+    img {
+        width: 100%;
+    }
+}
 </style>

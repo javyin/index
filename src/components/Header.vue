@@ -34,13 +34,16 @@ export default {
 
 <style lang="less">
 .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #333;
-    padding: 10px 0;
-    border-bottom: 5px solid rgba(30,30,30,0.5);
+    padding: 0.5vw 0;
+    border-bottom: 0.2vw solid rgba(30,30,30,0.5);
     .avatar {
         font-size: 0;
-        width: 150px;
-        height: 150px;
+        width: 7.5vw;
+        height: 7.5vw;
         border-radius: 50%;
         cursor: pointer;
         overflow: hidden;
@@ -50,13 +53,13 @@ export default {
     }
     .tabs {
         color: #eee;
-        font-size: 26px;
+        font-size: 1.5vw;
         position: absolute;
-        left: 250px;
+        left: 13vw;
         bottom: 0;
         .tab {
             cursor: pointer;
-            margin-right: 50px;
+            margin-right: 2.5vw;
             &:hover {
                 // background-color: #fff;
                 color: yellowgreen;

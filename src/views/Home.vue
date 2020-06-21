@@ -25,6 +25,6 @@ export default {
 
 <style lang="less">
 .home {
-
+    padding-top: 8.7vw;
 }
 </style>
