@@ -1,8 +1,8 @@
 <template>
   <div class="profile w">
-      <img src="../../assets/profile_1.jpg" alt="">
-      <img src="../../assets/profile_2.jpg" alt="">
-      <img src="../../assets/profile_3.jpg" alt="">
+      <img src="https://cdn.javyin.net/profile_1.jpg" alt="">
+      <img src="https://cdn.javyin.net/profile_2.jpg" alt="">
+      <img src="https://cdn.javyin.net/profile_3.jpg" alt="">
   </div>
 </template>
 

@@ -3,11 +3,12 @@
         <div class="w clearfix pr">
             <h1 class="avatar fl" @click="$router.push('/')">
                 殷梓伟
-                <img src="../assets/avatar.jpg" alt="">
+                <img src="https://cdn.javyin.net/avatar.jpg" alt="">
             </h1>
             <div class="clearfix tabs">
                 <div class="fl tab" @click="handleSwitch('profile')">个人简介</div>
                 <div class="fl tab" @click="handleSwitch('project')">项目案例</div>
+                <div class="fl tab" @click="handleSwitch('gitlab')">Gitlab</div>
             </div>
         </div>
     </div>
